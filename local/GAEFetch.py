@@ -220,7 +220,7 @@ def gae_urlfetch(method, url, headers, payload, appid, getfast=None, **kwargs):
 def _gae_urlfetch(appid, payload, request_headers, getfast, method, realurl):
     request_params, http_util, connection_cache_key = _get_request_params(appid)
     if http_util is http_nor:
-        request_headers['User-Agent'] = custom_gae_ua
+        request_headers['User-Agent'] = ''
         del request_headers['Accept-Encoding']
     while True:
         response = http_util.request(request_params, payload, request_headers,
