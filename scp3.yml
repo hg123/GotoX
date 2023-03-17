@@ -205,7 +205,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 更多节点关注@ShareCentrePro
       - 「SCP」UK-CF
       - 「SCP」NL-CF
       - 「SCP」HK-CF
