@@ -188,7 +188,6 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择    	
-      - 更多节点关注@ShareCentrePro
       - 「SCP」UK-CF
       - 「SCP」NL-CF
       - 「SCP」HK-CF
