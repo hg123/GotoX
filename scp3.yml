@@ -171,15 +171,17 @@ dns:
       - +.googletagservices.com
 proxies:
     - { name: 更多节点关注@ShareCentrePro, type: vmess, server: 127.0.0.1, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true }
+    - { name: 「SCP」DE-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: de1.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: de1.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: de1.sharecentrepro.org } }
+    - { name: 「SCP」US-DO, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: us1.sharecentrepro.com, network: ws, ws-opts: { path: /shirker, headers: { Host: us1.sharecentrepro.com } }, ws-path: /shirker, ws-headers: { Host: us1.sharecentrepro.com } }
+    - { name: 「SCP」JP-LN-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: jp1.scproxy.top, network: ws, ws-opts: { path: /shirker, headers: { Host: jp1.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: jp1.scproxy.top } }
     - { name: 「SCP」UK-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: uk1.scproxy.top, network: ws, ws-opts: { path: /shirker, headers: { Host: uk1.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: uk1.scproxy.top } }
-    - { name: 「SCP」NL-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: nl1.scproxy.top, network: ws, ws-opts: { path: /shirker, headers: { Host: nl1.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: nl1.scproxy.top } }
     - { name: 「SCP」HK-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: hk-hytron.ilovescp.com, network: ws, ws-opts: { path: /shirker, headers: { Host: hk-hytron.ilovescp.com } }, ws-path: /shirker, ws-headers: { Host: hk-hytron.ilovescp.com } }
     - { name: 「SCP」JP-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: jp1.sharecentrepro.com, network: ws, ws-opts: { path: /shirker, headers: { Host: jp1.sharecentrepro.com } }, ws-path: /shirker, ws-headers: { Host: jp1.sharecentrepro.com } }
     - { name: 「SCP」CA-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ca-nnc.ilovescp.com, network: ws, ws-opts: { path: /shirker, headers: { Host: ca-nnc.ilovescp.com } }, ws-path: /shirker, ws-headers: { Host: ca-nnc.ilovescp.com } }
-    - { name: 「SCP」SG-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: sg2.sharecentrepro.com, network: ws, ws-opts: { path: /shirker, headers: { Host: sg2.sharecentrepro.com } }, ws-path: /shirker, ws-headers: { Host: sg2.sharecentrepro.com } }
-    - { name: 「SCP」US-BuyVM, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: lv1.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: lv1.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: lv1.sharecentrepro.org } }
-    - { name: 「SCP」US-BuyVM2, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ny1.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: ny1.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: ny1.sharecentrepro.org } }
+    - { name: 「SCP」US-BuyVM1, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ny1.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: ny1.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: ny1.sharecentrepro.org } }
+    - { name: 「SCP」US-BuyVM2, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: lv1.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: lv1.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: lv1.sharecentrepro.org } }
     - { name: 「SCP」US-BuyVM3, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: lv2.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: lv2.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: lv2.sharecentrepro.org } }
+    - { name: 「SCP」US-BuyVM4, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: lv3.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: lv3.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: lv3.sharecentrepro.org } }
     - { name: 「SCP」US-DP1, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: dp1.scproxy.top, network: ws, ws-opts: { path: /shirker, headers: { Host: dp1.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: dp1.scproxy.top } }
     - { name: 「SCP」US-DP2, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: dp2.scproxy.top, network: ws, ws-opts: { path: /shirker, headers: { Host: dp2.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: dp2.scproxy.top } }
     - { name: 「SCP」KH-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: kh1.scproxy.top, network: ws, ws-opts: { path: /shirker, headers: { Host: kh1.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: kh1.scproxy.top } }
@@ -188,13 +190,15 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择    	
+      - 「SCP」DE-CF
+      - 「SCP」US-DO
+      - 「SCP」JP-LN-CF
       - 「SCP」UK-CF
-      - 「SCP」NL-CF
       - 「SCP」HK-CF
       - 「SCP」JP-CF
       - 「SCP」CA-CF
-      - 「SCP」SG-CF
-      - 「SCP」US-BuyVM
+      - 「SCP」US-BuyVM4
+      - 「SCP」US-BuyVM1
       - 「SCP」US-BuyVM2
       - 「SCP」US-BuyVM3
       - 「SCP」US-DP1
@@ -205,13 +209,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 「SCP」DE-CF
+      - 「SCP」US-DO
+      - 「SCP」JP-LN-CF
       - 「SCP」UK-CF
-      - 「SCP」NL-CF
       - 「SCP」HK-CF
       - 「SCP」JP-CF
       - 「SCP」CA-CF
-      - 「SCP」SG-CF
-      - 「SCP」US-BuyVM
+      - 「SCP」US-BuyVM4
+      - 「SCP」US-BuyVM1
       - 「SCP」US-BuyVM2
       - 「SCP」US-BuyVM3
       - 「SCP」US-DP1
