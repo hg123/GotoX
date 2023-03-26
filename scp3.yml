@@ -210,11 +210,10 @@ proxy-groups:
     interval: 300
     proxies:
       - 「SCP」DE-CF
-      - 「SCP」US-DO
-      - 「SCP」JP-LN-CF
+      - 「SCP」US-DO1
+      - 「SCP」US-DO2
       - 「SCP」UK-CF
       - 「SCP」HK-CF
-      - 「SCP」JP-CF
       - 「SCP」CA-CF
       - 「SCP」US-BuyVM4
       - 「SCP」US-BuyVM1
@@ -222,6 +221,7 @@ proxy-groups:
       - 「SCP」US-BuyVM3
       - 「SCP」US-DP1
       - 「SCP」US-DP2
+      - 「SCP」US-DP3
       - 「SCP」KH-CF
   - name: 电报
     type: select
