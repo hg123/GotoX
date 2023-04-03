@@ -451,6 +451,15 @@ rules:
  - DOMAIN-SUFFIX,zmlled.cn,REJECT
  - DOMAIN-SUFFIX,zunmi.cn,REJECT
  - DOMAIN-SUFFIX,zzd6.com,REJECT
+ - DOMAIN-SUFFIX,ads-twitter.com,REJECT
+ - DOMAIN-SUFFIX,ads.twitter.com,REJECT
+ - DOMAIN-SUFFIX,analytics.twitter.com,REJECT
+ - DOMAIN-SUFFIX,p.twitter.com,REJECT
+ - DOMAIN-SUFFIX,scribe.twitter.com,REJECT
+ - DOMAIN-SUFFIX,syndication-o.twitter.com,REJECT
+ - DOMAIN-SUFFIX,syndication.twitter.com,REJECT
+ - DOMAIN-SUFFIX,urls.api.twitter.com,REJECT
+ - DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
  - IP-CIDR,39.107.15.115/32,REJECT,no-resolve
  - IP-CIDR,47.89.59.182/32,REJECT,no-resolve
  - IP-CIDR,103.49.209.27/32,REJECT,no-resolve
