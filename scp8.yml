@@ -46,6 +46,7 @@ proxies:
   - { name: 「SCP」CA-CF 电信优化, type: vmess, server: cf-dx-dns.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ca.ilovescp.com, network: ws, ws-opts: { path: /shirker, headers: { Host: ca.ilovescp.com } }, ws-path: /shirker, ws-headers: { Host: ca.ilovescp.com } }
   - { name: 「SCP」CA-CF 联通优化, type: vmess, server: cf-lt-dns.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ca.ilovescp.com, network: ws, ws-opts: { path: /shirker, headers: { Host: ca.ilovescp.com } }, ws-path: /shirker, ws-headers: { Host: ca.ilovescp.com } }
   - { name: 「SCP」CA-CF 移动优化, type: vmess, server: cf-yd-dns.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ca.ilovescp.com, network: ws, ws-opts: { path: /shirker, headers: { Host: ca.ilovescp.com } }, ws-path: /shirker, ws-headers: { Host: ca.ilovescp.com } }
+  - { name: 「SCP」CA-CF-HTTP, type: vmess, server: cf-lt.sharecentre.online, port: 80, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, udp: true, tls: true, servername: ca.ilovescp.com, network: ws, ws-opts: { path: /shirker, headers: { Host: ca.ilovescp.com } }, ws-path: /shirker, ws-headers: { Host: ca.ilovescp.com } }
   - { name: 「SCP」US-BuyVM1, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ny1.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: ny1.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: ny1.sharecentrepro.org } }
   - { name: 「SCP」US-BuyVM1 电信优化, type: vmess, server: cf-dx-dns.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ny1.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: ny1.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: ny1.sharecentrepro.org } }
   - { name: 「SCP」US-BuyVM1 联通优化, type: vmess, server: cf-lt-dns.sharecentre.online, port: 443, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, udp: true, tls: true, servername: ny1.sharecentrepro.org, network: ws, ws-opts: { path: /shirker, headers: { Host: ny1.sharecentrepro.org } }, ws-path: /shirker, ws-headers: { Host: ny1.sharecentrepro.org } }
@@ -127,6 +128,7 @@ proxy-groups:
       - 「SCP」CA-CF 电信优化
       - 「SCP」CA-CF 联通优化
       - 「SCP」CA-CF 移动优化
+      - 「SCP」CA-CF-HTTP
       - 「SCP」US-BuyVM1
       - 「SCP」US-BuyVM1 电信优化
       - 「SCP」US-BuyVM1 联通优化
@@ -209,6 +211,7 @@ proxy-groups:
       - 「SCP」CA-CF 电信优化
       - 「SCP」CA-CF 联通优化
       - 「SCP」CA-CF 移动优化
+      - 「SCP」CA-CF-HTTP
       - 「SCP」US-BuyVM1
       - 「SCP」US-BuyVM1 电信优化
       - 「SCP」US-BuyVM1 联通优化
