@@ -178,7 +178,7 @@ proxy-groups:
       - 「SCP」US-DP22
       - 「SCP」US-DP33
       - 「SCP」US-DP3-HTTP
-       - 「SCP」US-DP4-HTTP
+      - 「SCP」US-DP4-HTTP
       - 「SCP」NL-CF     
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
