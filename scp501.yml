@@ -45,6 +45,8 @@ proxies:
     - { name: 「SCP」US-DP22, type: vmess, server: 172.67.33.145, port: 443, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, udp: true, tls: true, servername: dp2.scproxy.top, network: ws, ws-opts: { path: /shirker, headers: { Host: dp2.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: dp2.scproxy.top } }
     - { name: 「SCP」US-DP33, type: vmess, server: 66.235.200.204, port: 443, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, udp: true, tls: true, servername: dp3.scproxy.top, network: ws, ws-opts: { path: /shirker, headers: { Host: dp3.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: dp3.scproxy.top } }
     - { name: 「SCP」US-DP3-HTTP, type: vmess, server: 172.67.168.25, port: 80, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /shirker, headers: { Host: dp3.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: dp3.scproxy.top } }    
+    - { name: 「SCP」US-DP4-HTTP, type: vmess, server: 66.235.200.244, port: 80, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /shirker, headers: { Host: dp4.scproxy.top } }, ws-path: /shirker, ws-headers: { Host: dp4.scproxy.top } }
+    - { name: 「SCP」NL-CF, type: vmess, server: 172.64.154.186, port: 80, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /shirker, headers: { Host: nl.sharecentrepro.com } }, ws-path: /shirker, ws-headers: { Host: nl.sharecentrepro.com } }
 proxy-groups:
   - name: SCP
     type: select
@@ -88,6 +90,8 @@ proxy-groups:
       - 「SCP」US-DP22
       - 「SCP」US-DP33
       - 「SCP」US-DP3-HTTP
+      - 「SCP」US-DP4-HTTP
+      - 「SCP」NL-CF      
   - name: 自动选择	
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -130,6 +134,8 @@ proxy-groups:
       - 「SCP」US-DP22
       - 「SCP」US-DP33
       - 「SCP」US-DP3-HTTP
+      - 「SCP」US-DP4-HTTP
+      - 「SCP」NL-CF      
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -172,6 +178,8 @@ proxy-groups:
       - 「SCP」US-DP22
       - 「SCP」US-DP33
       - 「SCP」US-DP3-HTTP
+       - 「SCP」US-DP4-HTTP
+      - 「SCP」NL-CF     
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -213,7 +221,9 @@ proxy-groups:
       - 「SCP」US-DP11
       - 「SCP」US-DP22
       - 「SCP」US-DP33
-      - 「SCP」US-DP3-HTTP          	
+      - 「SCP」US-DP3-HTTP
+      - 「SCP」US-DP4-HTTP
+      - 「SCP」NL-CF      
   - name: 规则外路由选择
     type: select
     proxies:
