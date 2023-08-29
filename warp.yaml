@@ -8,7 +8,7 @@ clash-for-android:
 dns:
   enable: true
   listen: 127.0.0.1:53
-  default-nameserver: [223.5.5.5, 119.29.29.29]
+  default-nameserver: [114.114.114.114,202.103.24.68,119.29.29.29]
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
@@ -17,10 +17,10 @@ dns:
   fallback: [tls://101.101.101.101:853,https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
   fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 127.0.0.1/32], domain: [+.google.com, +.facebook.com, +.twitter.com, +.youtube.com, +.xn--ngstr-lra8j.com, +.google.cn, +.googleapis.cn, +.googleapis.com, +.gvt1.com, +.paoluz.com, +.paoluz.link, +.paoluz.xyz, +.sodacity-funk.xyz, +.nloli.xyz,+.jsdelivr.net, +.proton.me]}
 proxies:
-  - {name: "☁️ CFWarp-A",type: wireguard,server: 162.159.192.67,port: 1002,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-B",type: wireguard,server: 162.159.195.154,port: 1002,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-C",type: wireguard,server: 162.159.195.246,port: 1002,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-D",type: wireguard,server: 162.159.195.182,port: 1002,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-A",type: wireguard,server: 162.159.192.220,port: 3476,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-B",type: wireguard,server: 162.159.195.34,port: 3854,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-C",type: wireguard,server: 162.159.192.238,port: 3854,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-D",type: wireguard,server: 162.159.192.175,port: 3854,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
